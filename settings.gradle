@@ -1,0 +1,3 @@
+rootProject.name = "MultipleStatusView"
+include ':app'
+include ':multiple_status_view'

@@ -130,6 +130,14 @@ public class MultipleStatusView extends RelativeLayout {
     }
 
     /**
+     * 获取空视图
+     * @return
+     */
+    public View getEmptyView() {
+        return mEmptyView;
+    }
+
+    /**
      * 显示空视图
      *
      * @param hint 自定义提示文本内容
@@ -187,6 +195,14 @@ public class MultipleStatusView extends RelativeLayout {
     public final void showError(int hintResId, Object... formatArgs) {
         showError();
         setStatusHintContent(mErrorView, hintResId, formatArgs);
+    }
+
+    /**
+     * 获取错误视图
+     * @return
+     */
+    public View getErrorView() {
+        return mErrorView;
     }
 
     /**
@@ -260,6 +276,14 @@ public class MultipleStatusView extends RelativeLayout {
     }
 
     /**
+     * 获取加载中视图
+     * @return
+     */
+    public View getLoadingView() {
+        return mLoadingView;
+    }
+
+    /**
      * 显示加载中视图
      *
      * @param layoutId     自定义布局文件
@@ -303,6 +327,14 @@ public class MultipleStatusView extends RelativeLayout {
     public final void showNoNetwork(int hintResId, Object... formatArgs) {
         showNoNetwork();
         setStatusHintContent(mNoNetworkView, hintResId, formatArgs);
+    }
+
+    /**
+     * 获取无网络视图
+     * @return
+     */
+    public View getNoNetworkView() {
+        return mNoNetworkView;
     }
 
     /**

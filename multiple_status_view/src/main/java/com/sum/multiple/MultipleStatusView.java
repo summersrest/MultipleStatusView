@@ -14,6 +14,8 @@ import java.util.ArrayList;
 
 import androidx.fragment.app.Fragment;
 
+import com.sum.simple.R;
+
 /**
  * @author liujiang
  * Desc: 多状态View

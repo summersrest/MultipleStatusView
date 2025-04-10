@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
+import com.pactera.multiplestatusview.R;
 import com.sum.multiple.MultipleStatusView;
 
 public class MainActivity extends AppCompatActivity {
